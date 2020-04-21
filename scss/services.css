@@ -1,0 +1,14 @@
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+.icon-small {
+  line-height: 50%;
+  margin: 0;
+  font-size: 1.75rem;
+}
+
+#icons p {
+  font-size: 18px;
+}

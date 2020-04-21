@@ -1,0 +1,23 @@
+p {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.page_title {
+  font-size: 10vmin;
+  font-weight: 700;
+  letter-spacing: -3px;
+  text-decoration: none;
+  line-height: 100%;
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.section_title {
+  letter-spacing: -2px;
+  font-weight: 100;
+  font-size: 60px;
+  line-height: 100%;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=text.css.map */

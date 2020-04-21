@@ -1,0 +1,40 @@
+@import "./home.scss";
+@import "./services.scss";
+@import "./utilities.scss";
+@import "./flex.scss";
+@import "./colors.scss";
+@import "./text.scss";
+@import "./animations.scss";
+@import "./nav.scss";
+@import "./images.scss";
+@import "./shapes.scss";
+@import "./footer.scss";
+
+body {
+    max-width: 1400px;
+    overflow-x: hidden;
+    // animation-name: fade-in 1s ease-in-out;
+    @extend .fade-in;
+}
+
+main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+a, 
+#footer a {
+    transition: all .2s ease-in-out;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:hover, 
+#footer a:hover {
+    color: lightgrey;
+    text-decoration: none;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 25px #000;
+}

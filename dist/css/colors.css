@@ -1,0 +1,37 @@
+.text-green {
+  color: #0ba360;
+}
+
+.bg-perfect-white {
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+}
+
+.bg-salt-mountain {
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+
+.bg-green {
+  background: -webkit-gradient(linear, left bottom, left top, from(#0ba360), to(#3cba92));
+  background: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+}
+
+.bg-teal {
+  background: linear-gradient(-225deg, #B7F8DB 0%, #50A7C2 100%);
+}
+
+.bg-teal-2 {
+  background: #50A7C2;
+}
+
+.bg-smoke {
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.bg-purple {
+  background: linear-gradient(140deg, #392dd1 0%, #8e2995 100%);
+}
+
+.bg-white {
+  background-image: linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
+}
+/*# sourceMappingURL=colors.css.map */
