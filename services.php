@@ -74,7 +74,7 @@
       $circleMedClass = "bg-perfect-white right";
       $circleSmallClass = "bg-warning left";
       $imgSrc = "/img/img-team-3.svg";
-      $imgClass = "img-standard mt-4";
+      $imgClass = "mt-4";
       $btnLink = "#contact";
       $btnClass = "btn-dark";
       $btnText = "Contact us";
@@ -94,6 +94,7 @@
       $circleMedClass = "bg-teal right";
       $circleSmallClass = "bg-teal left";
       $imgSrc = "/img/img-contact.svg";
+      $imgClass = "img-standard";
       $btnLink = "mailto:doug@atherapy.ca";
       $btnClass = "btn-light";
       $btnText = "Get in touch";

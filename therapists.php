@@ -26,8 +26,6 @@
     ?>
   </div>
 
-  Advance Therapy retains the services of highly-trained professionals who take pride in client successes. Our therapists work hard to communicate effectively with the client's family and other treatment team members. This collaborative approach ensures effective therapy support and efficient use of rehabilitation dollars. As much as possible, we match clients with therapists who reside in the same area. Each therapist is thus well-acquainted with community resources and opportunities for local outings. Local client-therapists assignments also allows for greater flexibility with session-scheduling and keeps travel costs to a minimum.
-
   <!-- individual support -->
   <div id="collaboration" class="row relative bg-teal">
     <?php 
@@ -39,7 +37,7 @@
       $circleMedClass = "bg-perfect-white right";
       $circleSmallClass = "bg-warning left";
       $imgSrc = "/img/img-collaborate-2.svg";
-      $imgClass = "img-400";
+      $imgClass = "img-standard";
       $btnLink = "#connection";
       $btnClass = "btn-dark";
       $btnText = "Connection";
@@ -58,6 +56,7 @@
       $circleMedClass = "bg-salt-mountain right";
       $circleSmallClass = "bg-perfect-white left";
       $imgSrc = "/img/img-connect.svg";
+      $imgClass = "img-standard";
       $btnLink = "#careers";
       $btnClass = "btn-dark";
       $btnText = "Join us";
