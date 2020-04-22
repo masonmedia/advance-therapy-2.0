@@ -537,7 +537,8 @@ img:not(.nav-logo) {
 
 .circle-big,
 .circle-med,
-.circle-small {
+.circle-small,
+.circle-xs {
   position: absolute;
   z-index: 0;
   border-radius: 50%;
@@ -558,6 +559,12 @@ img:not(.nav-logo) {
 .circle-small {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
+}
+
+.circle-xs {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 

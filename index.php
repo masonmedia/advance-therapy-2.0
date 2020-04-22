@@ -21,10 +21,10 @@
     <?php 
       $imgColClass = "d-none d-lg-flex";
       $imgSrc = "/img/img-park.svg";
-      $imgClass = "img-banner";
-      $circleBigClass = "bg-teal rellax";
+      $imgClass = "img-banner rellax";
+      $circleBigClass = "bg-teal";
       $circleMedClass = "bg-salt-mountain right";
-      $circleSmallClass = "bg-teal left";
+      $circleSmallClass = "bg-perfect-white left";
       include './includes/image_component.php'; 
       ?>
   </div>

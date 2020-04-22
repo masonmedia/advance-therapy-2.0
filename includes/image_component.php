@@ -7,13 +7,12 @@
     </div>
     <!-- circle med -->
     <div 
-    class="circle-med shadow-lg rellax <?php echo $circleMedClass; ?>" 
-    <?php echo $rellaxSpeedMed; ?> data-aos="zoom-in"></div>
+    class="circle-med shadow-lg <?php echo $circleMedClass; ?>"
+    data-aos="fade-right"></div>
     <!-- circle small -->
     <div 
     class="circle-small shadow-lg <?php echo $circleSmallClass; ?>"
-    data-aos="zoom-in-right"
-    <?php echo $rellaxSpeedSmall; ?>></div>
+    data-aos="zoom-in-right"></div>
     <!-- image -->
     <img 
     class="<?php echo $imgClass; ?>" 

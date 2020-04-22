@@ -14,8 +14,8 @@
     src="<?php echo $imgSrc; ?>"
     data-aos="fade-up"> 
     <!-- arrow -->
-    <div 
-    class="arrow display-2 font-weight-bold <?php echo $arrowClass; ?>" data-aos="fade">↘</div>
+    <!-- <div 
+    class="arrow display-2 font-weight-bold <?php echo $arrowClass; ?>" data-aos="fade">↘</div> -->
     <!-- title -->
     <h2 class="section_title <?php echo $titleClass; ?>" 
     data-aos="fade-down" 

@@ -41,6 +41,7 @@ function allScripts () {
             easing: 'ease-in-out-sine',
             delay: 0
         });
+        
     }
 
 allScripts();
