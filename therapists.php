@@ -1,4 +1,8 @@
-<?php $navClass = "bg-perfect-white"; include './includes/header.php'; ?>
+<?php 
+$navClass = "bg-perfect-white"; 
+$title = "Advance Therapy | Our Team";
+$metaD = "Advance Therapy has a team of highly-trained RT professionals who work hard to deliver the best in rehabilitation therapy and support services.";
+include './includes/header.php'; ?>
 
 <div class="container-fluid pt-4">
   <div id="therapists" class="row relative bg-perfect-white">

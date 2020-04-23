@@ -1,4 +1,8 @@
-<?php $navClass = "bg-salt-mountain"; include './includes/header.php'; ?>
+<?php 
+$navClass = "bg-salt-mountain"; 
+$title = "Advance Therapy | Our Services";
+$metaD = "We specialize in many aspects of rehabilitation including academic support, job coaching, addictions support, physical rehabilitation, and more.";
+include './includes/header.php'; ?>
 
   <div class="container-fluid pt-4">
     <div id="services" class="row relative bg-salt-mountain">

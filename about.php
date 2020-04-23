@@ -1,4 +1,8 @@
-<?php $navClass = "bg-teal"; include './includes/header.php'; ?>
+<?php 
+$navClass = "bg-teal"; 
+$title = "Advance Therapy | About Us";
+$metaD = "Advance Therapy offers a wide range of goal-directed services which help clients rebuild their lives following a motor vehicle accident.";
+include './includes/header.php'; ?>
 
 <div class="container-fluid">
 <!-- about banner -->
