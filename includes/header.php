@@ -3,21 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>
-  <?php 
-    if(isset($title) && !empty($title)) { 
-       echo $title; 
-    } 
-    else { 
-       echo "Advance Therapy"; 
-    } ?>
+  <?php echo $title; ?>
   </title>
-  <meta name="description" content="<meta name="description" content="<?php
-  if(isset($metaD) && !empty($metaD)) { 
-    echo $metaD; 
-  } 
-  else { 
-    echo "Advance Therapy is a healthcare services provider specializing in brain injury rehabilitation."; 
-  } ?>" />">
+  <meta name="description" content="<?php echo $metaD; ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow"><!-- All Search Engines -->
   <meta name="googlebot" content="index,follow"><!-- Google Specific -->
@@ -37,6 +25,7 @@
   <meta name="twitter:url" content="http://atherapy.ca">
   <meta name="twitter:title" content="Advance Therapy">
   <meta name="twitter:description" content="Advance Therapy is a healthcare services provider specializing in brain injury rehabilitation.">
+  <meta name="twitter:dnt" content="on">
   <meta name="theme-color" content="#fafafa">
   <!-- <meta name="twitter:image" content="https://example.com/image.jpg"> -->
   <!-- <meta name="twitter:image:alt" content="A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters."> -->
