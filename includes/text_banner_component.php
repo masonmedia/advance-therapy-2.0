@@ -4,7 +4,7 @@
     <?php echo $microTitle1; ?> <span class="font-weight-light"><?php echo $microTitle2; ?></span>
   </h1>
   <!-- title -->
-  <h1 class="page_title">
+  <h1 class="page_title mb-3">
     <?php echo $title; ?>
   </h1>
   <p data-aos="zoom-in">

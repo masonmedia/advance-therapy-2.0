@@ -6,21 +6,16 @@ include './includes/header.php'; ?>
 
 <div class="home container-fluid">
   <div class="row d-flex bg-teal">
-    <div class="col-lg-6 align-left min-100 p-5">
-      <!-- brand -->
-      <h1 class="h5 navbar-brand mb-0" data-aos="fade-down">Advance<span class="font-weight-light">Therapy</span>
-      </h1>
-      <!-- title -->
-      <h1 class="page_title" data-aos="fade-right">
-        The best in rehabilitation services for people with an acquired brain injury.
-      </h1>
-      <!-- button/link -->
-      <?php 
+    <!-- text -->
+    <?php 
+      $microTitle1 = "Advance";
+      $microTitle2 = "Therapy.";
+      $title = "The best in rehabilitation services for people with an acquired brain injury.";
       $btnLink = "#about";
       $btnClass = "btn-dark";
       $btnText = "Read more";
-      include './includes/button.php'; ?>
-    </div>
+      include './includes/text_banner_component.php'; 
+    ?>
     <!-- image component -->
     <?php 
       $imgColClass = "d-none d-lg-flex";
