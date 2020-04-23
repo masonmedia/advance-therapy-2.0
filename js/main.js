@@ -37,7 +37,7 @@ function allScripts () {
 
           AOS.init({
             offset: 200,
-            duration: 1000,
+            duration: 1500,
             easing: 'ease-in-out-back',
             delay: 0
         });

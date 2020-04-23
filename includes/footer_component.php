@@ -1,5 +1,5 @@
 </main>
-<div id="footer" class="row relative z-1 min-50 bg-salt-mountain text-dark absolute bottom left p-5 box-shadow">
+<div id="footer" class="row relative z-1 min-50 w-100 m-0 p-5 bg-salt-mountain text-dark absolute bottom left box-shadow">
     <div class="absolute z-0 w-100 top left">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#7BDCB5" stroke="#7BDCB5" fill-opacity="1" d="M0,64L48,96C96,128,192,192,288,181.3C384,171,480,85,576,80C672,75,768,149,864,197.3C960,245,1056,267,1152,272C1248,277,1344,267,1392,261.3L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
