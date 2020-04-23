@@ -1,5 +1,4 @@
-<?php include './includes/header.php'; ?>
-<?php $navClass = "bg-salt-mountain"; include './includes/nav.php'; ?>
+<?php $navClass = "bg-salt-mountain"; include './includes/header.php'; ?>
 
   <div class="container-fluid pt-4">
     <div id="services" class="row relative bg-salt-mountain">

@@ -21,7 +21,7 @@
     <?php 
       $imgColClass = "d-none d-lg-flex";
       $imgSrc = "/img/img-park.svg";
-      $imgClass = "img-banner rellax";
+      $imgClass = "img-banner ";
       $circleBigClass = "bg-teal";
       $circleMedClass = "bg-salt-mountain right";
       $circleSmallClass = "bg-perfect-white left";
@@ -63,9 +63,9 @@
       $titleClass = "font-weight-bold";
       $title = "Covid-19 Update.";
       $text = "With the onset of Covid-19, Advance Therapy is offering online services to support our clients through this difficult time. In addition to some of our standard services, we're also offering online academic support! Need some help earning your online course credits? Advance Therapy offers academic support from an experienced teacher on a schedule customized to meet your needs from the comfort of your home.";
-      $circleBigClass = "bg-teal top";
-      $circleMedClass = "bg-teal right rellax";
-      $circleSmallClass = "bg-teal left rellax";
+      $circleBigClass = "bg-teal";
+      $circleMedClass = "bg-teal right";
+      $circleSmallClass = "bg-teal left";
       $imgSrc = "/img/img-tutor.svg";
       $imgClass = "img-standard";
       $btnLink = "mailto:doug@atherapy.ca";
@@ -110,7 +110,7 @@
       $text = "Please contact us for booking, service details, questions, and more information.";
       $circleBigClass = "bg-teal";
       $circleMedClass = "bg-teal right";
-      $circleSmallClass = "bg-teal left rellax";
+      $circleSmallClass = "bg-teal left ";
       $imgSrc = "/img/img-contact.svg";
       $btnLink = "mailto:doug@atherapy.ca";
       $btnClass = "btn-light";
@@ -118,7 +118,6 @@
       include './includes/text_center_component.php'; 
     ?>
   </div>
-
   <!-- footer component -->
   <?php include './includes/footer_component.php'; ?>
 </div><!--end cont-->

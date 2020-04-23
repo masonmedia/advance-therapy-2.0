@@ -1,5 +1,4 @@
-<?php include './includes/header.php'; ?>
-<?php $navClass = "bg-perfect-white"; include './includes/nav.php'; ?>
+<?php $navClass = "bg-perfect-white"; include './includes/header.php'; ?>
 
 <div class="container-fluid pt-4">
   <div id="therapists" class="row relative bg-perfect-white">

@@ -1,28 +1,19 @@
 <?php $navClass = "bg-teal"; include './includes/header.php'; ?>
 
 <div class="container-fluid">
-  
 <!-- about banner -->
   <div id="about" class="row relative bg-teal">
     <!-- text -->
-     <div class="col-lg-6 align-left min-100 p-5">
-      <!-- brand -->
-      <h1 class="h5 navbar-brand mb-0" data-aos="fade-down">About <span class="font-weight-light">Us.</span>
-      </h1>
-      <!-- title -->
-      <h1 class="page_title" data-aos="fade-right">
-        Who we are.
-      </h1>
-      <p data-aos="zoom-in">
-        We specialize in rehabilitation services for people with an acquired brain injury. We offer a range of services offering each client customized support for activities of daily living, educational or vocational pursuits, and community reintegration.
-      </p>
-      <!-- button/link -->
-      <?php 
+    <?php 
+      $microTitle1 = "About";
+      $microTitle2 = "Us.";
+      $title = "Who we are.";
+      $text = "We specialize in rehabilitation services for people with an acquired brain injury. We offer a range of services offering each client customized support for activities of daily living, educational or vocational pursuits, and community reintegration.";
       $btnLink = "#philosophy";
       $btnClass = "btn-dark";
       $btnText = "Read more";
-      include './includes/button.php'; ?>
-      </div>
+      include './includes/text_banner_component.php'; 
+    ?>
     <!-- image -->
     <?php 
       $imgColClass = "d-none d-lg-flex";
@@ -104,7 +95,6 @@
       include './includes/text_center_component.php'; 
     ?>
   </div>
-
 <!-- footer component -->
 <?php include './includes/footer_component.php'; ?>
 
