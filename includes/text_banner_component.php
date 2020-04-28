@@ -4,12 +4,12 @@
     <?php echo $microTitle1; ?> <span class="font-weight-light"><?php echo $microTitle2; ?></span>
   </h1>
   <!-- title -->
-  <h1 class="page_title mb-3">
+  <h1 class="page_title pb-2 mb-1" data-aos="fade-right">
     <?php echo $title; ?>
   </h1>
   <p data-aos="zoom-in">
     <?php echo $text; ?>
   </p>
   <!-- button/link -->
-  <?php include './includes/button.php'; ?>
+    <?php include './includes/button.php'; ?>
 </div>

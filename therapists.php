@@ -15,6 +15,9 @@ include './includes/header.php'; ?>
       $btnLink = "#collaboration";
       $btnClass = "btn-dark";
       $btnText = "Read more";
+      $btn2Link = "";
+      $btn2Class = "d-none";
+      $btn2Text = "";
       include './includes/text_banner_component.php'; 
     ?>
     <!-- image -->

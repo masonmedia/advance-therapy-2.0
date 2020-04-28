@@ -524,6 +524,10 @@ img:not(.nav-logo) {
 }
 
 @media (max-width: 601px) {
+  .img-banner,
+  .img-standard {
+    width: 100%;
+  }
   .img-center-component {
     width: 100%;
   }

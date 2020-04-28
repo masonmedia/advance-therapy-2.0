@@ -14,6 +14,9 @@ include './includes/header.php'; ?>
       $btnLink = "#about";
       $btnClass = "btn-dark";
       $btnText = "Read more";
+      $btn2Link = "mailto:doug@atherapy.ca";
+      $btn2Class = "btn btn-outline-dark";
+      $btn2Text = "Contact Us";
       include './includes/text_banner_component.php'; 
     ?>
     <!-- image component -->
@@ -49,6 +52,9 @@ include './includes/header.php'; ?>
     $btnLink = "/about.php";
     $btnClass = "btn-dark";
     $btnText = "Read more";
+    $btn2Link = "";
+    $btn2Class = "d-none";
+    $btn2Text = "";
     include './includes/text_right_component.php'; 
   ?>
   </div>

@@ -36,7 +36,7 @@ function allScripts () {
           document.getElementById("copyright").innerHTML = "&copy; Advance Therapy " + d.getFullYear();
 
           AOS.init({
-            offset: 200,
+            offset: 0,
             duration: 1500,
             easing: 'ease-in-out-back',
             delay: 0
