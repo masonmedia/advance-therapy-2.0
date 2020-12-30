@@ -192,3 +192,6 @@ Procfile    text
 ## EXECUTABLES
 *.exe binary
 *.pyc binary
+
+# Example of a `.gitattributes` file which reclassifies `.php` files as php [instead of hack]:
+*.php linguist-language=php
